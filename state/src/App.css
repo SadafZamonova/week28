@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tarif-card {
+ 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+.tarif {
+  color: #2e19a5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

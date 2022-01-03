@@ -1,0 +1,71 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:300px;
+    margin:1px;
+}  
+
+.card:hover {
+  transform: scale(1.1);
+  transition-timing-function: ease-in;
+    transition: 0.2s;
+}
+.card_title{
+    width:100%;
+    height: 50px;
+    font-size: 20px ;
+    color: white;
+    border-bottom:  1px  solid wheat;
+    background-color: #d42e22;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card_item1{
+    width:100%;
+    height: 100px;
+    font-size: 45px ;
+    color: white;
+    border-bottom:  1px  solid rgb(252, 250, 248);
+    background-color: #357386;
+    text-align: center;
+    padding-top:15px;
+}
+
+.card_item2{
+    width:100%;
+    height: 40px;
+    font-size: 20px ;
+    color: rgb(31, 29, 29);
+    border-bottom:  1px  solid rgb(252, 250, 248);
+    background-color: #e7edf1;
+    text-align: center;
+    padding-top:15px;
+}
+
+.card_item3{
+    width:100%;
+    height: 70px;
+    font-size: 20px ;
+    color: rgb(24, 23, 23);
+    border-bottom:  1px  solid rgb(252, 250, 248);
+    background-color: #e0e6eb;
+    text-align: center;
+    padding-top:15px;
+}
+ #zero .card_title {
+    color:#87CEEB
+ }
+
+ #one {
+    color:#2E8B57
+ }
+ #two {
+    color:#FF0000
+ }
+ #three {
+    color:#000000
+ }
