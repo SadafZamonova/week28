@@ -1,5 +1,7 @@
 import Tarif from './components/tariff';
 import './App.css';
+import React, { useState } from 'react';
+ 
 
 
 
@@ -35,12 +37,17 @@ let tarifs = [
 
 ]
 function App() {
+
+  
+  const [selectedId, setSelected, ] = useState('')
   return (
     <div className="App">
       <h1 className="tarif"> Тарифы
       </h1>
-<div className='tarif-card'>
-      {tarifs.map((tarif) => <Tarif item = {tarif}/>
+<div className='tarif-card' >
+      {tarifs.map((tarif) => <Tarif item = {tarif} selected={selectedId === tarif.id} onClick={() => {
+  setSelected(tarif.id)
+}}/>
       )}
       </div>
     </div>
